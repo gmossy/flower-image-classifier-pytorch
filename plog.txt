@@ -1,0 +1,86 @@
+05/13/2019 04:54:41 AM predict logging started
+05/13/2019 04:54:41 AM checkpoint: vgg19_checkpoint.pth  top_k:  5 cat_to_name.json use_gpu:  True
+05/13/2019 04:54:41 AM The flower to be predicted is:  image_path:  ./flowers/test/95/image_07470.jpg
+05/13/2019 04:54:49 AM with the following trained model:  vgg19 25088 102 4096 epochs:  1
+05/13/2019 04:55:01 AM [ 0.5138377   0.07287035  0.05391807  0.05369947  0.03466265] ['95', '84', '78', '88', '24'] bougainvillea
+05/13/2019 04:55:01 AM image_path: ./flowers/test/95/image_07470.jpg probs: [ 0.5138377   0.07287035  0.05391807  0.05369947  0.03466265]  classes: ['95', '84', '78', '88', '24'] flower_name: bougainvillea
+05/13/2019 04:55:48 AM Test_accuracy: 71.92% #Correct: 589  Total: 819
+05/13/2019 04:55:48 AM Training time_elapsed: 0m 47s
+05/13/2019 05:23:07 AM predict logging started
+05/13/2019 05:23:07 AM checkpoint: densenet161checkpoint.pth  top_k:  5 cat_to_name.json use_gpu:  True
+05/13/2019 05:23:07 AM The flower to be predicted is:  image_path:  ./flowers/test/43/image_02435.jpg
+05/13/2019 05:23:20 AM with the following trained model:  densenet161 2208 102 4096 epochs:  4
+05/13/2019 05:23:21 AM [ 0.78713262  0.16304828  0.03613681  0.00372377  0.00160664] ['43', '68', '36', '93', '76'] sword lily
+05/13/2019 05:23:21 AM image_path: ./flowers/test/43/image_02435.jpg probs: [ 0.78713262  0.16304828  0.03613681  0.00372377  0.00160664]  classes: ['43', '68', '36', '93', '76'] flower_name: sword lily
+05/13/2019 05:24:09 AM Test_accuracy: 94.02% #Correct: 770  Total: 819
+05/13/2019 05:24:09 AM Training time_elapsed: 0m 49s
+05/13/2019 05:24:33 AM predict logging started
+05/13/2019 05:24:33 AM checkpoint: densenet161checkpoint.pth  top_k:  5 cat_to_name.json use_gpu:  True
+05/13/2019 05:24:33 AM The flower to be predicted is:  image_path:  ./flowers/test/1/image_06752.jpg
+05/13/2019 05:24:38 AM with the following trained model:  densenet161 2208 102 4096 epochs:  4
+05/13/2019 05:24:39 AM [ 0.34037384  0.22975056  0.1833526   0.1172583   0.05755446] ['1', '67', '93', '34', '86'] pink primrose
+05/13/2019 05:24:39 AM image_path: ./flowers/test/1/image_06752.jpg probs: [ 0.34037384  0.22975056  0.1833526   0.1172583   0.05755446]  classes: ['1', '67', '93', '34', '86'] flower_name: pink primrose
+05/13/2019 05:25:28 AM Test_accuracy: 94.02% #Correct: 770  Total: 819
+05/13/2019 05:25:28 AM Training time_elapsed: 0m 49s
+
+05/13/2019 05:27:29 AM predict logging started
+05/13/2019 05:27:29 AM checkpoint: densenet121_checkpoint.pth  top_k:  5 cat_to_name.json use_gpu:  False
+05/13/2019 05:27:29 AM The flower to be predicted is:  image_path:  ./flowers/test/1/image_06752.jpg
+05/13/2019 05:27:34 AM with the following trained model:  densenet121 1024 102 4096 epochs:  10
+05/13/2019 05:27:35 AM [  9.56950605e-01   2.68212110e-02   1.42777078e-02   7.06269871e-04
+   6.15072902e-04] ['1', '67', '19', '55', '69'] pink primrose
+05/13/2019 05:27:35 AM image_path: ./flowers/test/1/image_06752.jpg probs: [  9.56950605e-01   2.68212110e-02   1.42777078e-02   7.06269871e-04
+   6.15072902e-04]  classes: ['1', '67', '19', '55', '69'] flower_name: pink primrose
+05/13/2019 05:27:35 AM Training time_elapsed: 0m 0s
+
+05/13/2019 05:39:51 AM predict logging started
+05/13/2019 05:39:51 AM checkpoint: densenet161checkpoint.pth  top_k:  5 cat_to_name.json use_gpu:  False
+05/13/2019 05:39:51 AM The flower to be predicted is:  image_path:  ./flowers/test/95/image_07573.jpg
+05/13/2019 05:39:57 AM with the following trained model:  densenet161 2208 102 4096 epochs:  4
+05/13/2019 05:39:58 AM [  9.95905221e-01   1.19204528e-03   7.71214953e-04   7.69451086e-04
+   3.17286002e-04] ['95', '89', '19', '97', '43'] bougainvillea
+05/13/2019 05:39:58 AM image_path: ./flowers/test/95/image_07573.jpg probs: [  9.95905221e-01   1.19204528e-03   7.71214953e-04   7.69451086e-04
+
+05/13/2019 05:42:26 AM predict logging started
+05/13/2019 05:42:26 AM checkpoint: vgg16_checkpoint.pth  top_k:  5 cat_to_name.json use_gpu:  False
+05/13/2019 05:42:26 AM The flower to be predicted is:  image_path:  ./flowers/test/85/image_04814.jpg
+05/13/2019 05:42:37 AM with the following trained model:  vgg16 25088 102 4096 epochs:  1
+05/13/2019 05:42:37 AM [ 0.41802704  0.10769656  0.05648354  0.05605945  0.04793549] ['88', '43', '4', '73', '87'] cyclamen
+05/13/2019 05:42:37 AM image_path: ./flowers/test/85/image_04814.jpg probs: [ 0.41802704  0.10769656  0.05648354  0.05605945  0.04793549]  classes: ['88', '43', '4', '73', '87'] flower_name: cyclamen
+05/13/2019 05:42:37 AM Accuracy Testing time_elapsed: 0m 0s
+05/13/2019 05:43:04 AM predict logging started
+05/13/2019 05:43:04 AM checkpoint: vgg16_checkpoint.pth  top_k:  5 cat_to_name.json use_gpu:  False
+05/13/2019 05:43:04 AM The flower to be predicted is:  image_path:  ./flowers/test/74/image_01209.jpg
+05/13/2019 05:43:10 AM with the following trained model:  vgg16 25088 102 4096 epochs:  1
+05/13/2019 05:43:10 AM [ 0.34556937  0.2367534   0.13801578  0.03752066  0.03382921] ['74', '88', '95', '43', '78'] rose
+05/13/2019 05:43:10 AM image_path: ./flowers/test/74/image_01209.jpg probs: [ 0.34556937  0.2367534   0.13801578  0.03752066  0.03382921]  classes: ['74', '88', '95', '43', '78'] flower_name: rose
+05/13/2019 05:43:52 AM Test_accuracy: 71.43% #Correct: 585  Total: 819
+05/13/2019 05:43:52 AM Accuracy Testing time_elapsed: 0m 42s
+05/13/2019 05:44:05 AM predict logging started
+05/13/2019 05:44:05 AM checkpoint: alexnetcheckpoint.pth  top_k:  5 cat_to_name.json use_gpu:  False
+05/13/2019 05:44:05 AM The flower to be predicted is:  image_path:  ./flowers/test/29/image_04137.jpg
+05/13/2019 05:44:11 AM with the following trained model:  alexnet 9216 102 4096 epochs:  15
+05/13/2019 05:44:11 AM [  1.00000000e+00   6.35238195e-10   3.75698604e-13   1.21126674e-13
+   5.86536367e-14] ['29', '14', '13', '51', '77'] artichoke
+05/13/2019 05:44:11 AM image_path: ./flowers/test/29/image_04137.jpg probs: [  1.00000000e+00   6.35238195e-10   3.75698604e-13   1.21126674e-13
+   5.86536367e-14]  classes: ['29', '14', '13', '51', '77'] flower_name: artichoke
+05/13/2019 05:44:32 AM Test_accuracy: 85.35% #Correct: 699  Total: 819
+05/13/2019 05:44:32 AM Accuracy Testing time_elapsed: 0m 21s
+05/13/2019 05:45:01 AM predict logging started
+05/13/2019 05:45:01 AM checkpoint: alexnetcheckpoint.pth  top_k:  5 cat_to_name.json use_gpu:  False
+05/13/2019 05:45:01 AM The flower to be predicted is:  image_path:  ./flowers/test/1/image_06752.jpg
+05/13/2019 05:45:06 AM with the following trained model:  alexnet 9216 102 4096 epochs:  15
+05/13/2019 05:45:06 AM [ 0.58722192  0.30926263  0.08742899  0.00393038  0.00181095] ['19', '86', '1', '93', '52'] balloon flower
+05/13/2019 05:45:06 AM image_path: ./flowers/test/1/image_06752.jpg probs: [ 0.58722192  0.30926263  0.08742899  0.00393038  0.00181095]  classes: ['19', '86', '1', '93', '52'] flower_name: balloon flower
+05/13/2019 05:45:46 AM Test_accuracy: 85.35% #Correct: 699  Total: 819
+05/13/2019 05:45:46 AM Accuracy Testing time_elapsed: 0m 21s
+05/13/2019 05:45:56 AM predict logging started
+05/13/2019 05:45:56 AM checkpoint: alexnetcheckpoint.pth  top_k:  5 cat_to_name.json use_gpu:  True
+05/13/2019 05:45:56 AM The flower to be predicted is:  image_path:  ./flowers/test/74/image_01254.jpg
+05/13/2019 05:46:01 AM with the following trained model:  alexnet 9216 102 4096 epochs:  15
+05/13/2019 05:46:01 AM [  9.97884154e-01   1.21472299e-03   8.47363786e-04   2.83674472e-05
+   1.16221981e-05] ['74', '43', '96', '95', '31'] rose
+05/13/2019 05:46:01 AM image_path: ./flowers/test/74/image_01254.jpg probs: [  9.97884154e-01   1.21472299e-03   8.47363786e-04   2.83674472e-05
+   1.16221981e-05]  classes: ['74', '43', '96', '95', '31'] flower_name: rose
+05/13/2019 05:46:23 AM Test_accuracy: 85.35% #Correct: 699  Total: 819
+05/13/2019 05:46:23 AM Accuracy Testing time_elapsed: 0m 21s
