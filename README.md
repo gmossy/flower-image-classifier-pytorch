@@ -1,5 +1,5 @@
 # Udacity's AI Programming with Python Nanodegree program, Image classification using Pytorch models.
-#### by Glenn Mossy, Sept 2019
+#### by Glenn Mossy, May 2019
 
 AI Programming with Python Project. Image classification (102 flower categories) using Pytorch models.
 Project code for Udacity's AI Programming with Python Nanodegree program. In this project, code developed for an image classifier built with PyTorch, then converted into a command line applications: train.py, predict.py.
